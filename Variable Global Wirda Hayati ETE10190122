@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std;
+
+//Ini variable Global Wirda Hayati, ETE10190122
+int a = 80;
+int b = 60;
+int c = 42;
+
+int ContohFunction1 ( )
+{
+	a = 40;
+	return a;
+}
+
+int ContohFunction2 ( )
+{
+	b = 30;
+	return b;
+}
+
+int ContohFunction3 ( )
+{
+	c = 21;
+	return c;
+}
+
+int main ( )
+{
+	cout << " ini variable global 1 : " << a << endl;
+	cout << " ini variable global 2 : " << b << endl;
+	cout << " ini variable global 3 : " << c << endl;
+	cout << " ini variable global dari fungsi ContohFunction 1 : " << ContohFunction1 ( );
+	cout << endl;
+	cout << " ini variable global dari fungsi ContohFunction 2 : " << ContohFunction2 ( );
+	cout << endl;
+	cout << " ini variable global dari fungsi ContohFunction 3 : " << ContohFunction3 ( );
+	cout << endl;
+	cout << endl;
+}
