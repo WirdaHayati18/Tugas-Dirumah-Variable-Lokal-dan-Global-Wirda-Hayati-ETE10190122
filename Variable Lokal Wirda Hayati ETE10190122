@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int ContohFunction ( )
+{
+	//Deklarasi Variable Lokal 1 Wirda Hayati, ETE10190122
+	int a = 18;
+	return a;
+	//Variable dihancurkan/dihapus dari alamat memori
+}
+
+int ContohFunction2 ( )
+{
+	//Deklarasi Variable Lokal 2 Wirda Hayati, ETE10190122
+	int b = 25;
+	return b;
+	//Variable dihancurkan/dihapus dari alamat memori
+}
+
+int main ( )
+{
+	int a = 15;
+	int b = 20;
+	cout << " ini variable lokal dari fungsi utama : " << a << endl;
+	cout << " ini variable lokal dari fungsi kedua : " << b << endl;
+	cout << " ini variable lokal dari fungsi ContohFunction 1 : " << ContohFunction ( );
+	cout << endl;
+	cout << " ini variable lokal dari fungsi ContohFunction 2 : " << ContohFunction2 ( );
+	cout << endl;
+}
